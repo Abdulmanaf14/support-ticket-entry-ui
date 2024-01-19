@@ -14,7 +14,7 @@ const Dashboard = () => {
     
     useEffect(() => {
         const apiUrl = 'http://localhost:3500/support-agents';
-        const apiUrl2 = 'http://localhost:3500/ticket-rise';
+        const apiUrl2 = 'http://localhost:3500/support-tickets';
         
    
   

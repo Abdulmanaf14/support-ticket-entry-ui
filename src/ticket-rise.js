@@ -49,7 +49,7 @@ const TicketRise = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    const apiUrl = 'http://localhost:3500/ticket-rise';
+    const apiUrl = 'http://localhost:3500/support-tickets';
 
 
 

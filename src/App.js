@@ -19,9 +19,7 @@ function App() {
         <Route path="/ticket-rise" element={<TicketRise />} />
         <Route  path="/support-agent" element={<SupportAgent />} />
         <Route  path="/dashboard" element={<Dashboard />} />
-        <Route index element={<SupportAgent />} />
-        <Route path="/success" element={<SuccessMessage />} />
-        
+        <Route index element={<SupportAgent />} />        
       </Routes>
     </Router>
 
